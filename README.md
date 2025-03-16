@@ -43,17 +43,5 @@ This repository features an **automotive cruise control system** using **MATLAB*
 - **Step Response**:  
   - Examines time-domain system performance.  
 
-## Notes on Improving Comments
-- **MATLAB Script**:  
-  - Add explanations for key parameters, functions, and analysis steps.  
-- **Simulink Model**:  
-  - Use **annotations** for major blocks, label signals, and provide a high-level system overview.  
-
-## Contributing
-1. **Fork the repo**  
-2. **Create a branch**  
-3. **Commit changes**  
-4. **Open a PR**  
-
 ## Contact
-For questions or contributions, reach out at [Your Email](mailto:your_email@domain.com).  
+For questions or contributions, reach out at aryansr@umich.edu.  
