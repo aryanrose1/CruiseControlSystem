@@ -20,3 +20,40 @@ This repository features an **automotive cruise control system** using **MATLAB*
 2. **Run the MATLAB script**:  
    ```matlab
    run('MATLAB_Script.m')
+   ```
+   - Loads parameters and performs control analysis.  
+3. **Open and run the Simulink model** (`CruiseControlMod.slx`).  
+   - Observe system response and disturbance rejection.  
+
+## Key Components
+- **PID Controller**:  
+  - Tunable gains (`Kp`, `Ki`, `Kd`) for stability and performance.  
+- **Plant Model**:  
+  - DC motor + vehicle dynamics (`G`).  
+- **Feedback Sensor**:  
+  - Tachometer (`H`).  
+- **Disturbance Input**:  
+  - Step disturbance to test system response.  
+
+## Analysis & Plots
+- **Root Locus**:  
+  - Visualizes system stability with varying PID gains.  
+- **Bode Plots**:  
+  - Evaluates frequency response and disturbance rejection.  
+- **Step Response**:  
+  - Examines time-domain system performance.  
+
+## Notes on Improving Comments
+- **MATLAB Script**:  
+  - Add explanations for key parameters, functions, and analysis steps.  
+- **Simulink Model**:  
+  - Use **annotations** for major blocks, label signals, and provide a high-level system overview.  
+
+## Contributing
+1. **Fork the repo**  
+2. **Create a branch**  
+3. **Commit changes**  
+4. **Open a PR**  
+
+## Contact
+For questions or contributions, reach out at [Your Email](mailto:your_email@domain.com).  
