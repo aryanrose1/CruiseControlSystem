@@ -1,15 +1,22 @@
 # Automotive Cruise Control System
 
-This repository demonstrates an **automotive cruise control system** built with **MATLAB** and **Simulink**. The system uses a **DC motor** to drive the vehicle’s wheels and a **PID controller** to maintain a desired speed (angular velocity). It is designed to handle disturbances such as changes in load or road slope.
+This repository features an **automotive cruise control system** using **MATLAB** and **Simulink**. A **DC motor** regulates vehicle speed, controlled by a **PID controller** to maintain a set velocity while handling disturbances like load changes or road slopes.
 
-1. **MATLAB Script (MATLAB_Script.m)**  
-   - Defines system parameters (motor, vehicle dynamics, tachometer).  
-   - Sets a PID controller with user-specified gains.  
-   - Builds transfer functions and performs analysis (root locus, Bode plots).  
-   - Prepares data for Simulink and runs the simulation to validate performance.  
+## Overview
+- **MATLAB Script (`MATLAB_Script.m`)**  
+  - Defines system parameters (motor, vehicle, tachometer).  
+  - Implements a **PID controller** for speed regulation.  
+  - Performs **root locus, Bode plots, and step response analysis**.  
+  - Prepares parameters for Simulink simulation.  
 
-2. **Simulink Model (CruiseControlMod.slx or controlSys.slx)**  
-   - Represents the DC motor and vehicle inertia in a block diagram.  
-   - Implements a PID controller to regulate speed.  
-   - Includes a disturbance input for testing robustness.  
-   - Logs simulation output (angular velocity) for post-processing and plotting.  
+- **Simulink Model (`CruiseControlMod.slx`)**  
+  - Models **motor + vehicle dynamics** and **tachometer feedback**.  
+  - Uses a **PID controller block** for speed control.  
+  - Introduces a **disturbance input** to test system robustness.  
+  - Runs simulations and logs angular velocity data.  
+
+## Quick Start
+1. **Clone the repository** and open **MATLAB**.  
+2. **Run the MATLAB script**:  
+   ```matlab
+   run('MATLAB_Script.m')
